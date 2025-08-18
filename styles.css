@@ -1,0 +1,155 @@
+/* Basic Setup */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #6a5acd;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.main-nav a:hover {
+    background-color: #9370db;
+}
+
+/* Content Sections */
+.content-section {
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.intro-section {
+    background-color: #e6f7ff;
+}
+
+/* Box Model Demo */
+.box-model-demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.margin-layer {
+    background-color: #ffe6e6;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+.border-layer {
+    border: 10px solid #ffb6c1;
+    padding: 20px;
+    background-color: #fff0f5;
+}
+
+.padding-layer {
+    background-color: #e6ffe6;
+    padding: 20px;
+}
+
+.content-layer {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.layer-label {
+    position: absolute;
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+.margin-layer .layer-label { top: -10px; left: 10px; }
+.border-layer .layer-label { top: -10px; left: 10px; }
+.padding-layer .layer-label { top: -10px; left: 10px; }
+
+/* Play Area */
+.play-area {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#box1 { background-color: #ff9999; border: 5px solid #ff4d4d; }
+#box2 { background-color: #99ff99; border: 5px solid #4dff4d; }
+#box3 { background-color: #9999ff; border: 5px solid #4d4dff; }
+
+.color-box:hover {
+    transform: scale(1.1);
+}
+
+.shuffle-button {
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+.shuffle-button:hover {
+    background-color: #9370db;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6a5acd;
+    color: white;
+    margin-top: 30px;
+}
+
+/* For the illustration image */
+.illustration {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
